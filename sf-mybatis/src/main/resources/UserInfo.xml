@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.csf.dao.UserMapper">
+    <select id="getUserInfoById" resultType="com.csf.entity.User">
+        select id,name from t_user where id = ?
+    </select>
+</mapper>
